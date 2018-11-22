@@ -1,0 +1,368 @@
+body{font-family: 'Oswald', sans-serif;
+          background: #EEEEEE;
+}
+
+a{
+  color:#5C8BE5;
+  
+}
+a:hover{
+       text-decoration: none;
+}
+
+.navbar-brand img{margin-top: -5px;}
+
+ .dropdown-menu>li>a{
+     text-align: center;
+  }
+
+.jumbotron{ height: 200px;
+               overflow: hidden;
+  
+  
+}
+
+.jumbotron #detailes{position: absolute;
+                     color:#F2BC60;
+}
+.jumbotron p{position: absolute;
+                     color:#4B8D5E;
+}
+
+.jumbotron #detailes span{
+                        color:#5C8BE5;
+  
+} 
+.jumbotron img{ width: 100%;
+  
+}
+
+section .widgets{
+               margin-bottom: 20px;
+}
+
+.popular{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #E3E3E3;
+}
+
+.popular .detailes{
+                 margin-left: -20px;
+}
+
+.popular .detailes p{
+                    font-family: arial;
+}
+
+.popular ul li{
+             list-style: none;
+}
+
+.categories{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #E3E3E3;
+}
+
+.categories img{
+            width: 100%;
+  margin-top: 10px;
+}
+
+.popular img{
+            width: 100%;
+  margin-top: 10px;
+}
+
+.post{
+  background-color: white;
+  border:  1px solid #E3E3E3;
+  margin: 15px 0px;
+}
+
+.post .post-date{
+                   padding: 20px;
+              text-align: center;
+ 
+}
+
+.post .post-date .day{
+  font-size: 30px;
+  color:#5C8BE5;
+}
+
+
+
+.post .post-date .year{
+  font-size: 18px;
+  font-weight: 100;
+  
+}
+
+.post .post-title{
+  padding: 5px 20px 29px 20px;
+   border-left:1px solid #E3E3E3;
+}
+
+.post .post-title span{
+   color:#5C8BE5;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.post .profile-pic{
+             padding: 20px;
+}
+
+.post .profile-pic img{
+             width: 100%;
+}
+
+.post > a > img{
+  width: 100%;
+ 
+}
+
+.post .desc{font-family: arial;
+   font-weight: 100;
+  padding: 20px;
+  line-height: 20px;    
+}
+
+.post > a.btn{
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.post .bottem{
+   padding:10px  20px;
+  border-top:1px solid #E3E3E3; 
+}
+
+.post .bottem .first{
+  margin-right: 20px;
+}
+
+.post .bottem .second{
+  margin-left: 20px;
+}
+
+.pagination > li > a{
+   color: #24A7CF;
+  padding: 15px 25px;
+  font-size: 18px;
+}
+
+footer{
+       background-color:black;
+  color: aliceblue;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+
+/*contact use page css*/
+
+.contact-form{
+  background-color: white;
+  padding:50px 25px;
+  border-radius: 5px;
+}
+
+.contact-form h2{
+  color: #5C8BE5;
+}
+
+.contact-form textarea{
+  resize: none;
+}
+
+.related-posts{
+  background-color: #ffffff;
+   padding:10px 20px;
+  margin-bottom: 15px;
+}
+
+.related-posts img{
+  width: 100%;
+ 
+}
+
+.related-posts h3{
+  color:#5c8be5;
+ 
+}
+
+.author{
+  background-color: white;
+  padding: 20px;
+   margin-bottom: 15px;
+}
+
+.author img{
+  width: 100%;
+}
+
+.author h4{
+ color:#5c8be5;
+  text-decoration: underline;
+}
+
+.author p{
+  font-weight:100;
+}
+.comment{
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.comment h3{
+  color:#5c8be5;
+}
+
+.comment img{
+  width:100%;
+}
+.comment .single-comment{
+  margin-bottom: 10px;
+}
+
+.comment-box{
+  margin-bottom: 15px;
+  background: white;
+  padding: 20px;
+}
+
+.comment-box textarea{
+  resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px)
+{
+  
+    .post .profile-pic{
+    text-align: center;
+      margin-top: -40px;
+  }
+  
+  .post .profile-pic img{
+    width: 20%;
+    text-align: center;
+  }
+  
+  .post .post-title{
+    border-left:none;
+    text-align: center;
+  }
+}
+
+
+@media(max-width:720px){
+  
+  
+  .jumbotron #detailes{
+    margin-top: 20px;
+     }
+  
+  .post .post-title{
+    margin-top: -30px;
+    text-align: center;
+    border:none;
+  }
+  
+  .post .profile-pic{
+    text-align: center;
+  }
+  
+  .post .profile-pic img{
+    width: 20%;
+    text-align: center;
+  } 
+  
+  .pagination > li > a{
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  
+  footer{font-size: 8px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+  }
+  .navbar-inverse .navbar-nav>li>a{
+    text-align: center;
+  }
+  .dropdown-menu>li>a{
+     text-align: center;
+  }
+  
+  .author{
+  background-color: white;
+  padding: 20px;
+   margin-bottom: 15px;
+    text-align: center;
+}
+  
+  .author img{
+  width: 30%;
+}
+
+.author h4{
+ color:#5c8be5;
+  text-decoration: underline;
+}
+
+.author p{
+  font-weight:100;
+}
+
+      .comment{
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .comment h3{
+      color:#5c8be5;
+    }
+
+    .comment img{
+      width:30%;
+    }
+    .comment .single-comment{
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+html,body{
+  height: 100%;
+}
+
+
+body{
+  padding-top: 60px;
+}
+body#profile img#profile-img{
+  webkit-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 46px 0px rgba(0,0,0,0.75);
+}
+
+.navbar {
+    color: white;
+    background-color: #007BFF;
+}
+.navbar ul >li a {color: white !important;
+  
+}
+.Dashboard{ background-color: #007BFF !important;}
+
+.badge{ background-color: #007BFF !important;}
+
+.huge{font-size: 40px;}
+
+.tag-boxes .panel-primary{
+  border: 1px solid #337AB7;
+}
+
+.tag-boxes .panel-red{
+  color: white;
+  background-color: #d9534f;
+}
+.tag-boxes .panel-red a
+{
+  
+  background-color: #d9534f !important;
+}
+
+.tag-boxes .panel-red a:hover{
+  
+  background-color:red;
+}
+
+
+.tag-boxes .panel-yellow{
+  color: white;
+  background-color:chocolate;
+}
+.tag-boxes .panel-yellow a
+{
+  
+  background-color: #d9534f !important;
+}
+
+.tag-boxes  .panel-yellow a
+ a:hover{
+  
+  background-color:red;
+}
+
+.tag-boxes .panel-green{
+  color: white;
+  background-color:crimson;
+}
+.tag-boxes .panel-green a
+{
+  
+  background-color: #d9534f !important;
+}
+
+.tag-boxes  .panel-green a
+ a:hover{
+  
+  background-color:red;
+}
+
+#wrapper{
+  min-height: 100%;
+  position: relative;
+}
+
+.body-section{
+  padding-bottom: 70px;
+}
+
+footer{
+  background-color: #007BFF;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover{
+   color: white;
+}
+
+          /*users*/
+
+.width{
+  width: 100px !important;
+}
